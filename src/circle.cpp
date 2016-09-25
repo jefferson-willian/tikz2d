@@ -1,8 +1,8 @@
-#include "graphics/include/circle.h"
+#include "tikz2d/include/circle.h"
 
 using std::string;
 
-namespace graphics {
+namespace tikz2d {
 
 const string Circle::latex_model(const string& x, const string& y,
     const string& r, const string params) const {
@@ -14,4 +14,4 @@ const string Circle::Latex(double proportion) const {
       std::to_string(radius_ * proportion), "");
 }
 
-}  // namespace graphics
+}  // namespace tikz2d

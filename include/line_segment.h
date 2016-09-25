@@ -2,11 +2,11 @@
 #define GRAPHICS_INCLUDE_LINE_SEGMENT_H_
 
 #include "gl2d/include/line_segment.h"
-#include "graphics/include/shape.h"
+#include "tikz2d/include/shape.h"
 
 #include <string>
 
-namespace graphics {
+namespace tikz2d {
 
 class LineSegment : public gl2d::LineSegment, public Shape {
  private:
@@ -31,6 +31,6 @@ class LineSegment : public gl2d::LineSegment, public Shape {
 
 };
 
-}  // namespace graphics
+}  // namespace tikz2d
 
 #endif  // GRAPHICS_INCLUDE_LINE_SEGMENT_H_

@@ -1,8 +1,8 @@
-#include "graphics/include/line_segment.h"
+#include "tikz2d/include/line_segment.h"
 
 using std::string;
 
-namespace graphics {
+namespace tikz2d {
 
 const string LineSegment::latex_model(const string& x_1, const string& y_1,
     const string& x_2, const string& y_2) const {
@@ -14,4 +14,4 @@ const string LineSegment::Latex(double proportion) const {
       std::to_string(b_.x() * proportion), std::to_string(b_.y() * proportion));
 }
 
-}  // namespace graphics
+}  // namespace tikz2d

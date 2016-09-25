@@ -2,11 +2,11 @@
 #define GRAPHICS_INCLUDE_CIRCLE_H_
 
 #include "gl2d/include/circle.h"
-#include "graphics/include/shape.h"
+#include "tikz2d/include/shape.h"
 
 #include <string>
 
-namespace graphics {
+namespace tikz2d {
 
 class Circle : public gl2d::Circle, public Shape {
  private:
@@ -20,6 +20,6 @@ class Circle : public gl2d::Circle, public Shape {
   const std::string Latex(double proportion) const override;
 };
 
-}  // namespace graphics
+}  // namespace tikz2d
 
 #endif  // GRAPHICS_INCLUDE_CIRCLE_H_

@@ -1,12 +1,12 @@
 #ifndef GRAPHICS_INCLUDE_IMAGE_H_
 #define GRAPHICS_INCLUDE_IMAGE_H_
 
-#include "graphics/include/shape.h"
+#include "tikz2d/include/shape.h"
 
 #include <string>
 #include <sstream>
 
-namespace graphics {
+namespace tikz2d {
 
 class Image {
  private:
@@ -25,6 +25,6 @@ class Image {
   const std::string Latex() const;
 };
 
-}  // namespace graphics
+}  // namespace tikz2d
 
 #endif  // GRAPHICS_INCLUDE_IMAGE_H_

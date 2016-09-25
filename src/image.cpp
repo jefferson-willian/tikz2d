@@ -1,4 +1,4 @@
-#include "graphics/include/image.h"
+#include "tikz2d/include/image.h"
 
 #include <string>
 #include <sstream>
@@ -6,7 +6,7 @@
 using std::string;
 using std::stringstream;
 
-namespace graphics {
+namespace tikz2d {
 
 Image::Image(double proportion) : proportion_(proportion * 0.1) {
   latex_header << "\\documentclass[tikz,border=0.125cm]{standalone}\n"
@@ -29,4 +29,4 @@ const std::string Image::Latex() const {
   return latex_header.str() + latex_content.str() + latex_footer.str();
 }
 
-}  // namespace graphics
+}  // namespace tikz2d

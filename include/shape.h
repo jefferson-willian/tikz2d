@@ -3,7 +3,7 @@
 
 #include <string>
 
-namespace graphics {
+namespace tikz2d {
 
 class Shape {
  protected:
@@ -22,6 +22,6 @@ class Shape {
   virtual const std::string Latex(double proportion) const = 0;
 };
 
-}  // namespace graphics
+}  // namespace tikz2d
 
 #endif  // GRAPHICS_INCLUDE_SHAPE_H_

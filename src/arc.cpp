@@ -1,8 +1,8 @@
-#include "graphics/include/arc.h"
+#include "tikz2d/include/arc.h"
 
 using std::string;
 
-namespace graphics {
+namespace tikz2d {
 
 const string Arc::latex_model(const string& x, const string& y,
     const string& radians_start, const string& radians_end, const string& r,
@@ -19,4 +19,4 @@ const string Arc::Latex(double proportion) const {
       std::to_string(start), std::to_string(end), std::to_string(radius_ * proportion), "");
 }
 
-}  // namespace graphics
+}  // namespace tikz2d

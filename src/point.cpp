@@ -1,8 +1,8 @@
-#include "graphics/include/point.h"
+#include "tikz2d/include/point.h"
 
 using std::string;
 
-namespace graphics {
+namespace tikz2d {
 
 const string Point::latex_model(const string& x, const string& y,
     const string& r, const string params) const {
@@ -14,4 +14,4 @@ const string Point::Latex(double proportion) const {
       std::to_string(0.1), "fill");
 }
 
-}  // namespace graphics
+}  // namespace tikz2d

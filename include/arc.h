@@ -2,11 +2,11 @@
 #define GRAPHICS_INCLUDE_ARC_H_
 
 #include "gl2d/include/arc.h"
-#include "graphics/include/shape.h"
+#include "tikz2d/include/shape.h"
 
 #include <string>
 
-namespace graphics {
+namespace tikz2d {
 
 class Arc : public gl2d::Arc, public Shape {
  private:
@@ -23,6 +23,6 @@ class Arc : public gl2d::Arc, public Shape {
   const std::string Latex(double proportion) const override;
 };
 
-}  // namespace graphics
+}  // namespace tikz2d
 
 #endif  // GRAPHICS_INCLUDE_ARC_H_
