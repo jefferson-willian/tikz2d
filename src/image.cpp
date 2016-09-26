@@ -1,4 +1,4 @@
-#include "tikz2d/include/image.h"
+#include "tikz2d/image.h"
 
 #include <string>
 #include <sstream>

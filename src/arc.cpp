@@ -1,4 +1,4 @@
-#include "tikz2d/include/arc.h"
+#include "tikz2d/arc.h"
 
 using std::string;
 

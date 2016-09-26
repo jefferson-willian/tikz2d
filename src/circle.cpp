@@ -1,4 +1,4 @@
-#include "tikz2d/include/circle.h"
+#include "tikz2d/circle.h"
 
 using std::string;
 

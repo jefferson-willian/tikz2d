@@ -1,8 +1,8 @@
 #ifndef GRAPHICS_INCLUDE_LINE_SEGMENT_H_
 #define GRAPHICS_INCLUDE_LINE_SEGMENT_H_
 
-#include "gl2d/include/line_segment.h"
-#include "tikz2d/include/shape.h"
+#include "gl2d/line_segment.h"
+#include "tikz2d/shape.h"
 
 #include <string>
 

@@ -1,4 +1,4 @@
-#include "tikz2d/include/point.h"
+#include "tikz2d/point.h"
 
 using std::string;
 

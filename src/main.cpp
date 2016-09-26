@@ -4,18 +4,18 @@
 
 #include <cstdlib>
 
-#include "tikz2d/include/circle.h"
-#include "tikz2d/include/line_segment.h"
-#include "tikz2d/include/point.h"
-#include "tikz2d/include/image.h"
-#include "tikz2d/include/arc.h"
+#include "tikz2d/circle.h"
+#include "tikz2d/line_segment.h"
+#include "tikz2d/point.h"
+#include "tikz2d/image.h"
+#include "tikz2d/arc.h"
 
-#include "gl2d/include/tangent.h"
-#include "gl2d/include/line_segment.h"
-#include "gl2d/include/distance.h"
-#include "gl2d/include/point.h"
-#include "gl2d/include/vector.h"
-#include "gl2d/include/radians.h"
+#include "gl2d/tangent.h"
+#include "gl2d/line_segment.h"
+#include "gl2d/distance.h"
+#include "gl2d/point.h"
+#include "gl2d/vector.h"
+#include "gl2d/radians.h"
 
 int main(int argc, char** argv) {
 

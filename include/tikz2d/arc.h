@@ -1,8 +1,8 @@
 #ifndef GRAPHICS_INCLUDE_ARC_H_
 #define GRAPHICS_INCLUDE_ARC_H_
 
-#include "gl2d/include/arc.h"
-#include "tikz2d/include/shape.h"
+#include "gl2d/arc.h"
+#include "tikz2d/shape.h"
 
 #include <string>
 

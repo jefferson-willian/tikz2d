@@ -1,8 +1,8 @@
 #ifndef GRAPHICS_INCLUDE_CIRCLE_H_
 #define GRAPHICS_INCLUDE_CIRCLE_H_
 
-#include "gl2d/include/circle.h"
-#include "tikz2d/include/shape.h"
+#include "gl2d/circle.h"
+#include "tikz2d/shape.h"
 
 #include <string>
 

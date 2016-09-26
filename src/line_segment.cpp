@@ -1,4 +1,4 @@
-#include "tikz2d/include/line_segment.h"
+#include "tikz2d/line_segment.h"
 
 using std::string;
 

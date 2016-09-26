@@ -1,8 +1,8 @@
 #ifndef GRAPHICS_INCLUDE_POINT_H_
 #define GRAPHICS_INCLUDE_POINT_H_
 
-#include "gl2d/include/point.h"
-#include "tikz2d/include/shape.h"
+#include "gl2d/point.h"
+#include "tikz2d/shape.h"
 
 #include <string>
 

@@ -1,7 +1,7 @@
 #ifndef GRAPHICS_INCLUDE_IMAGE_H_
 #define GRAPHICS_INCLUDE_IMAGE_H_
 
-#include "tikz2d/include/shape.h"
+#include "tikz2d/shape.h"
 
 #include <string>
 #include <sstream>
