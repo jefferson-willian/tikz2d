@@ -16,7 +16,7 @@ const string Arc::Latex(double proportion) const {
   if (gl2d::util::cmpD(start, end) > 0)
     start -= 360;
   return latex_model(std::to_string(center_.x() * proportion), std::to_string(center_.y() * proportion),
-      std::to_string(start), std::to_string(end), std::to_string(radius_ * proportion), "");
+      std::to_string(start), std::to_string(end), std::to_string(radius_ * proportion), params_);
 }
 
 }  // namespace tikz2d
