@@ -15,6 +15,8 @@ class Point : public gl2d::Point, public Shape {
 
  public:
   using gl2d::Point::Point;
+
+  Point(const gl2d::Point& point) : gl2d::Point(point) {}
   ~Point() = default;
 
   const std::string Latex(double proportion) const override;

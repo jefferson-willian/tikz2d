@@ -15,6 +15,8 @@ class Circle : public gl2d::Circle, public Shape {
 
  public:
   using gl2d::Circle::Circle;
+
+  Circle(const gl2d::Circle& circle) : gl2d::Circle(circle) {}
   ~Circle() = default;
 
   const std::string Latex(double proportion) const override;
