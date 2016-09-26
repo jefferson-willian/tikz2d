@@ -6,7 +6,7 @@ project(tikz2d)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 #Bring the headers, such as Student.h into the project
-include_directories(../ external/gl2d/test/external/googletest/googletest/include)
+include_directories(../ external/ external/gl2d/test/external/googletest/googletest/include)
 
 #However, the file(GLOB...) allows for wildcard additions:
 file(GLOB SOURCES "src/*.cpp")
