@@ -24,11 +24,6 @@ class LineSegment : public gl2d::LineSegment, public Shape {
   void SetArrow() {
     add_param("->,>=stealth");
   }
-
-  void SetColor(const std::string& color) {
-    add_param(color);
-  }
-
 };
 
 }  // namespace tikz2d

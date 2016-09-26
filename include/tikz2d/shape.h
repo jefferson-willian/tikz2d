@@ -20,6 +20,10 @@ class Shape {
   virtual ~Shape() = default;
 
   virtual const std::string Latex(double proportion) const = 0;
+
+  virtual void SetColor(const std::string& color) {
+    add_param(color);
+  }
 };
 
 }  // namespace tikz2d
